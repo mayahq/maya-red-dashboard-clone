@@ -32,7 +32,8 @@ reason: https://github.com/angular/material/issues/6214
 .nr-dashboard-textinput
   md-input-container
   label:not(.md-no-float):not(.md-container-ignore) {
-  padding-left: 12px;
+  color: #4b4b4b !important;
+  font-weight: 500 !important;
   margin-bottom: 3px;
 }
 

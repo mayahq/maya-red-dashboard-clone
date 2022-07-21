@@ -1,13 +1,16 @@
 .nr-dashboard-numeric {
-    padding: 0 0 0 12px;
+  color: #4b4b4b !important;
+  font-weight: 500;
 }
 
 .nr-dashboard-numeric .value {
-    font-weight: bold;
-    text-align: center;
-    border: 0px;
+  font-weight: bold;
+  text-align: center;
+  border: 0px;
+  color: #4b4b4b !important;
 }
 
 .nr-dashboard-numeric .md-button {
-    margin: 0;
+  margin: 0;
+  color: #4b4b4b !important;
 }
