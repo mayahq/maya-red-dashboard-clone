@@ -21,12 +21,15 @@
 }
 .nr-dashboard-form .formElement {
   width: calc(100% - 12px);
-  border: 1px solid #e6e7e7;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
   padding-left: 6px;
   padding-bottom: 6px;
-  color: #4b4b4b;
+  color: #787575;
+  font-weight: 500;
+  margin-bottom: 10px;
   /* margin-left: 6px; */ /* maya-style remove extra margin from left of form input */
-  /* margin-right: 6px */ /* maya-style remove extra margin from right of form input */
+  margin-right: 6px; /* maya-style remove extra margin from right of form input */
 }
 .nr-dashboard-form .formElementSplit {
   width: calc(50% - 12px);
@@ -44,6 +47,7 @@
   background-color: #4a304b;
   margin: 0px 8px;
   box-shadow: none !important;
+  /* maya-style :: changed color for from button */
 }
 
 .nr-dashboard-form .form-control button:first-of-type {
@@ -51,7 +55,8 @@
 }
 
 .nr-dashboard-form .form-control button:hover {
-  background-color: #4a304b !important;
+  background-color: #39213a !important;
+  /* maya-style :: added hover color for from button */
 }
 
 .nr-dashboard-form .form-control-single {

@@ -431,6 +431,8 @@ md-card {
   .nr-dashboard-theme .nr-dashboard-chart-title {
   }
   .nr-dashboard-theme .nr-dashboard-chart-titlel {
+    /* maya-style :: changed the title color of chart*/
+    color: #4b4b4b !important;
     font-size: larger;
     font-weight: 500;
   }
@@ -463,18 +465,21 @@ md-card {
     .nr-dashboard-dropdown
     md-select
     .md-select-value.md-select-placeholder {
-    color: #4b4b4b;
-    border-color: #4b4b4b;
+    color: #777574;
+    border-color: #777574;
+    font-weight: 500 !important;
     border-bottom-width: 1px;
     padding: 0px 2px;
   }
   .nr-dashboard-theme .nr-dashboard-dropdown .md-select-icon {
-    color: #4b4b4b;
+    color: #777574 !important;
+    font-weight: 500 !important;
   }
   .nr-dashboard-theme .md-select-menu-container {
     max-height: 85%;
     overflow-y: auto;
-    border: 1px solid @pageTitlebarBackgroundColor;
+    // border: 1px solid #787575 !important;
+    /* maya-style :: adding border to the dropdown container*/
   }
   .nr-dashboard-theme md-select-menu {
     margin-left: -2px;
@@ -486,25 +491,29 @@ md-card {
   }
   .nr-dashboard-theme md-select-menu,
   .nr-dashboard-theme md-select-menu md-option {
-    background-color: @groupBackgroundColor;
-    color: @widgetTextColor;
+    background-color: white !important;
+    color: #777574 !important;
+    font-weight: 500 !important;
+    border-bottom: 1px solid #d8d8d7 !important;
+    /* maya-style :: changed the color and background and gave border when opening dropdown menu*/
   }
   .nr-dashboard-theme md-select-menu md-option[selected] {
-    color: @groupTextColor !important;
-    background-color: @groupBackgroundColor !important;
+    color: #4b4b4b !important;
+    background-color: white !important;
   }
   .nr-dashboard-theme
     md-select-menu[multiple]
     md-option.md-checkbox-enabled[selected]
     .md-icon {
-    background-color: lighten(@widgetBackgroundColor, 10) !important;
-    border-color: transparent !important;
+    background-color: #c2c2c1 !important;
+    /* changed the color of tick in dialog box*/
   }
   .nr-dashboard-theme
     md-select-menu[multiple]
     md-option.md-checkbox-enabled
     .md-icon {
-    border-color: @widgetBackgroundColor !important;
+    background-color: #c2c2c1 !important;
+    /* changed the background of tick in dialog box*/
   }
   .nr-dashboard-theme
     md-select-menu.md-default-theme
@@ -513,7 +522,9 @@ md-card {
     background-color: @groupBackgroundColor;
   }
   .nr-dashboard-theme md-select-menu md-option:hover {
-    background-color: lighten(@widgetBackgroundColor, 4) !important;
+    background-color: #d8d8d7 !important;
+    color: #777574 !important;
+    /* changed the hover color and background*/
   }
   .nr-dashboard-theme md-menu-content {
     background-color: @groupBackgroundColor;
@@ -521,7 +532,7 @@ md-card {
   }
   .nr-dashboard-theme md-menu-content md-menu-item {
     background-color: @groupBackgroundColor;
-    color: @widgetTextColor;
+    color: #4b4b4b !important;
   }
 
   /* Gauge */
@@ -957,7 +968,8 @@ md-card {
     font-family: inherit;
   }
   .nr-dashboard-theme .nr-dashboard-form form md-input-container label {
-    color: #4b4b4b !important;
+    color: #787575 !important;
+    /* maya-style :: changed the color of placeholder in form */
   }
   .nr-dashboard-theme
     .nr-dashboard-form
@@ -981,8 +993,8 @@ md-card {
     color: @groupTextColor;
   }
   .nr-dashboard-theme .nr-dashboard-form form .md-input-invalid input {
-    // border-color: #d00 !important;
     border-bottom: 1px solid #d40101 !important;
+    /* maya-style :: added border bottom to required text in form */
   }
   .nr-dashboard-theme
     md-content
