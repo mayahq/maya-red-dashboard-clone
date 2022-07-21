@@ -33624,7 +33624,6 @@ reason: https://github.com/angular/material/issues/6214
 
 .nr-dashboard-form .form-control button:hover {
   background-color: #4a304b !important;
-  transition: all 0.02s cubic-bezier(0.08, 0.52, 0.52, 1) !important;
 }
 
 .nr-dashboard-form .form-control-single {
